@@ -1,6 +1,7 @@
 // loadtest/script.js
 import http from 'k6/http';
 import { sleep, check } from 'k6';
+import http from 'k6/http';
 
 export const options = {
   stages: [
